@@ -208,7 +208,7 @@ ui <- fluidPage(
         mainPanel(
           h3("Simulated Odds", style = "text-align: center;"),
            tableOutput("tbl"),
-          h6("Note: The lottery is simulated 10,000 times. Since these are simulated odds, they aren't the exact probabilities.", style = "text-align: center;"),
+          h6("Note: The lottery is simulated 10,000 times. Since these are simulated odds, they aren't the exact probabilities. The more unlikely the scenario, the longer the simulation will take.", style = "text-align: center;"),
           h3("Original Odds", style = "text-align: center;"),
           tableOutput("tbl2"),
           h4("Picks owed to other teams"),
